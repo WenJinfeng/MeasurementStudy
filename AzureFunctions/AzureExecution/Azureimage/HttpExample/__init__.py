@@ -95,7 +95,7 @@ def image_processing(file_name, image_path):
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
 
-    s3_client = boto3.client('s3',aws_access_key_id="AKIAUMD2BUWBSHVKCSPR",                          aws_secret_access_key="3+l7PzgevKaBuj8tactfYw2LHgiIu4KQn79pDglf",       region_name="us-east-1")
+    s3_client = boto3.client('s3',aws_access_key_id="YOUR AWS ID",                          aws_secret_access_key="YOUR AWS Key",       region_name="us-east-1")
 
     tm_st = time() * 1000
 

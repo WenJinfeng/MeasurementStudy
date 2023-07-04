@@ -116,7 +116,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     tm_st = time.time() * 1000
     
     my_dir_set = set(os.listdir('/tmp/'))
-    s3_client = boto3.resource('s3', aws_access_key_id="AKIAUMD2BUWBSHVKCSPR",                          aws_secret_access_key="3+l7PzgevKaBuj8tactfYw2LHgiIu4KQn79pDglf",       region_name="us-east-1")
+    s3_client = boto3.resource('s3', aws_access_key_id="YOUR AWS ID",                          aws_secret_access_key="YOUR AWS Key",       region_name="us-east-1")
 
     bucket_name = "cynthiaeastbucket"
 
