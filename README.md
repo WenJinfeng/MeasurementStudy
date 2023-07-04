@@ -63,3 +63,8 @@
     - 文件夹“macro”是所使用的阿里巴巴函数计算编写格式下的宏基准测试应用代码：图计算graph、图片处理image、机器学习推理inferenceboto、语音合成speech、机器学习训练trainboto
     - AlicoldstartTotal.py是对不同类型应用的操作：创建部署、调用、删除
     - conf.py是设置的全局信息，包括阿里巴巴函数计算的凭证信息、部署应用的文件位置
+
+
+## 度量的性能数据
+- TotalAnalysisColdStart.xlsx表示四个平台在不同语言、不同内存下分别获得的1,000次冷启动性能结果
+- TotalAnalysisExecution.xlsx表示四个平台在不同任务类型下分别获得的1,000次冷启动性能结果

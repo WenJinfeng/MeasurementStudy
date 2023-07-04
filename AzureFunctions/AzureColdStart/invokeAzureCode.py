@@ -139,8 +139,8 @@ def log_process(requeststart, timepoint, requestend, log_file, func_name, runtim
 
 
     with open(log_file,"a") as f:
-        print("Function-Name:{}, Runtime:{}, runtimeVersion:{}, Init-Duration:{}, Function-Duration:{}, e2e-Duration:{}".format(func_name, runtime, version, initDuration, duration, e2eDuration))
-        f.write("Function-Name:{}, Runtime:{}, runtimeVersion:{}, Init-Duration:{}, Function-Duration:{}, e2e-Duration:{}".format(func_name, runtime, version, initDuration, duration, e2eDuration))
+        print("Function-Name:{}, Runtime:{}, runtimeVersion:{}, ColdStart-Duration:{}, Function-Duration:{}, e2e-Duration:{}".format(func_name, runtime, version, initDuration, duration, e2eDuration))
+        f.write("Function-Name:{}, Runtime:{}, runtimeVersion:{}, ColdStart-Duration:{}, Function-Duration:{}, e2e-Duration:{}".format(func_name, runtime, version, initDuration, duration, e2eDuration))
         f.write("\n")
     
     f.close()

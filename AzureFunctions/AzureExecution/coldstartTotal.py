@@ -77,8 +77,8 @@ def log_process(requeststart, timepoint, requestend, log_file, func_name, runtim
     e2eDuration = fstr(requestend - requeststart)
 
     with open(log_file,"a") as f:
-        print("Function-Name:{}, startType:{}, Runtime:{}, runtimeVersion:{}, Init-Duration:{}, Function-Duration:{}, e2e-Duration:{}".format(func_name, startType, runtime, version, initDuration, duration, e2eDuration))
-        f.write("Function-Name:{}, startType:{}, Runtime:{}, runtimeVersion:{}, Init-Duration:{}, Function-Duration:{}, e2e-Duration:{}".format(func_name, startType, runtime, version, initDuration, duration, e2eDuration))
+        print("Function-Name:{}, startType:{}, Runtime:{}, runtimeVersion:{}, ColdStart-Duration:{}, Function-Duration:{}, e2e-Duration:{}".format(func_name, startType, runtime, version, initDuration, duration, e2eDuration))
+        f.write("Function-Name:{}, startType:{}, Runtime:{}, runtimeVersion:{}, ColdStart-Duration:{}, Function-Duration:{}, e2e-Duration:{}".format(func_name, startType, runtime, version, initDuration, duration, e2eDuration))
         f.write("\n")
     
     f.close()
