@@ -1,5 +1,9 @@
 # MeasurementStudy
 
+update！！！
+实现在不同主流平台下的微基准测试程序和宏基准测试程序分别提供在相应平台下探究执行性能的文件夹（即AWSExecution、GoogleExecution、AzureExecution和AlibabaExecution）中。
+
+
 关于四个服务器无感知平台进行运行时性能探究的代码脚本。创建、部署和执行的FaaS应用根据每个平台的编写格式特点进行微调。同时，也包括我们设计的每组实验获得的1,000次性能数据结果。
 
 ## 亚马逊Lambda -- 对应文件夹“AWSLambda”
