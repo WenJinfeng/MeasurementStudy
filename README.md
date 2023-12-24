@@ -1,7 +1,7 @@
 # MeasurementStudy
 
 **UPDATE！！！**
-实现在不同主流平台下的微基准测试程序和宏基准测试程序分别提供在相应平台下探究执行性能的文件夹（即AWSLambda/AWSExecution、GoogleCloudFunctions/GoogleExecution、AzureFunctions/AzureExecution和AlibabaFunctionCompute/AlibabaExecution）中。
+实现在不同主流平台下的微基准测试程序和宏基准测试程序分别提供在相应平台下探究执行性能的文件夹中（即AWSLambda/AWSExecution、GoogleCloudFunctions/GoogleExecution、AzureFunctions/AzureExecution和AlibabaFunctionCompute/AlibabaExecution）。
 
 
 
