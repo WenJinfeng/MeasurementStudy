@@ -1,4 +1,6 @@
-# MeasurementStudy
+# 软件学报-MeasurementStudy
+
+**该工作发表在2024年《软件学报》服务器无感知平台性能度量研究**
 
 **UPDATE！！！**
 实现在不同主流平台下的微基准测试程序和宏基准测试程序分别提供在相应平台下探究执行性能实验的文件夹中，即AWSLambda/AWSExecution、GoogleCloudFunctions/GoogleExecution、AzureFunctions/AzureExecution和AlibabaFunctionCompute/AlibabaExecution。
